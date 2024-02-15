@@ -12,7 +12,7 @@ Singleton Pattern: The class follows the singleton pattern to ensure only one in
 
 **Thread Safety:** The lock keyword is used to ensure synchronized access to shared resources during file writing. Each thread increments the line count and appends lines to the log file.
 
-**Error Handling: **Specific exceptions such as IOException, UnauthorizedAccessException, and general Exception are caught during file writing to provide meaningful error messages.
+**Error Handling:** Specific exceptions such as IOException, UnauthorizedAccessException, and general Exception are caught during file writing to provide meaningful error messages.
 
 **Initialization:** The log file is initialized with an initial line containing timestamp information.
 
